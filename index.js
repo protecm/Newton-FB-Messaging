@@ -22,38 +22,5 @@
 //npm install node-windows -S --registry https://registry.npmjs.org/
 //npm install ps-node -S --registry https://registry.npmjs.org/
 
-/*
-FACEBOOK ACCOUNTS:
-==================
-tomymomy123@gmail.com (Valid)
-test1234
-
-bonikar1234@gmail.com (Valid)
-bb12bb12bb
-
-
-yoram99181@walla.co.il (Valid)
-test1234
-
-Avi_arani@walla.com
-.0526139921
-
-djfliner121@gmail.com
-dj035718717
-
-roypliner@gmail.com
-djroy575
-
-itzika26@walla.com
-djroy035718717
-
-0532812565
-lev2007
-
-Lin1997@bezeqint.net
-ליןאוחנה12345
-
-*/
-
 
 
