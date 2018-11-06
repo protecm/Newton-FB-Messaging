@@ -1,0 +1,51 @@
+<div class="modal-header">
+    <h3 class="modal-title">Load custom friends file</h3>
+</div>
+<div class="modal-body">
+
+	<input type="file" id="ImportCustomFile" name="ImportCustomFile" accept="{{fileFormat}}" style="display: none;">
+	
+	<select name="SelectFileFormat" ng-model="fileFormat" class="AppSelectPicker">
+	  <option value="" disabled>File format...</option>
+	  <option value=".txt">txt</option>
+	  <option value=".xml" disabled="disabled">xml</option>
+	  <option value=".json" disabled="disabled">json</option>
+	</select>
+
+	<h3 style="float: left;">Friends count: <b> {{ fb_friends.length }} </b> </h3>
+
+	<button type="button" ng-click="importFile()" class="btn btn-primary" style="width:100px;height:50px;font-size:15px;margin: 10px;" ng-disabled="!fileFormat">
+		<span class="glyphicon glyphicon-import" aria-hidden="true"></span> Import 
+	</button>
+
+	<table class="table table-hover" style="overflow: scroll;max-height:400px;display:block;">
+		 		<thead class="thead-default">
+			 		<tr>
+			 			<th></th>
+		 				<th>
+		 				ID<br>
+		 				<input type="text" id="filter_id" name="filter_id" ng-model="filter_id" placeholder="filter" class="form-control input-md" ng-change="change_filter_id()" disabled>
+		 				</th>
+		 			</tr>
+	 			</thead>
+
+
+		 		<tbody>
+				    <tr ng-repeat="friend in fb_friends">
+				    	<td>
+
+				    	</td>
+				    	<td>
+				    		{{ friend.userID }}
+				    	</td>
+			    	</tr>
+
+		 		</tbody>
+			</table>
+
+	
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary ButtonSize" type="button" ng-click="ok()">OK</button>
+    <button class="btn btn-danger ButtonSize" type="button" ng-click="cancel()">Cancel</button>
+</div>

@@ -1,0 +1,104 @@
+<menu></menu>
+
+<div ng-controller="ControlFacebookUser">
+
+
+<fbheader>
+</fbheader>
+
+<div class="form-group">
+	<input type="text" id="fb_username" name="fb_username" ng-model="fb_username" placeholder="Username" class="form-control input-lg" style="font-size:20px;">
+</div>
+
+<div class="form-group">
+	<input type="password" id="fb_password" name="fb_password" ng-model="fb_password" placeholder="Password" class="form-control input-lg" style="font-size:20px;">
+</div>
+
+
+
+<button type="button" ng-click="GetUserFriends()" class="btn btn-primary" style="width:100%;height:50px;font-size:20px;">
+	<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Get User Friends
+</button>
+
+			<h3 style="float: left;">Friends count: <b> {{ fb_friends_filtered.length }} </b> </h3>
+
+			<button type="button" ng-click="ExportUserFriends()" class="btn btn-primary" style="width:100px;height:50px;font-size:15px;float: left;margin: 10px;">
+				<span class="glyphicon glyphicon-export" aria-hidden="true"></span> Export
+			</button>
+
+			<div class="btn-group" uib-dropdown is-open="is_menu_import_open">
+		      <button id="menu-event-button" type="button" class="btn btn-primary navbar-btn" uib-dropdown-toggle style="width:100px;height:50px;font-size:15px;float: left;margin: 10px;">
+		        <span class="glyphicon glyphicon-import" aria-hidden="true"></span> Import 
+		        <span class="caret"></span>
+		      </button>
+		      <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="menu-post-button">
+		        <li role="menuitem"><a href ng-click="ImportSystemUserFriends()" style="font-size:20px;">
+		        System</a></li>
+		        <li role="menuitem"><a href ng-click="ImportCustomUserFriends()" style="font-size:20px;">Custom</a></li>
+		      </ul>
+		    </div>
+
+			<input type="file" id="ImportFile" name="ImportFile" accept=".json" style="display: none;">
+
+	 		<table class="table table-hover" style="overflow: scroll;max-height:500px;display:block;">
+		 		<thead class="thead-default">
+			 		<tr>
+			 			<th></th>
+		 				<th>
+		 				ID<br>
+		 				<input type="text" id="filter_id" name="filter_id" ng-model="filter_id" placeholder="filter" class="form-control input-md" ng-change="change_filter_id()" disabled>
+		 				</th>
+		 				<th>
+		 				Name<br>
+		 				<input type="text" id="filter_name" name="filter_name" ng-model="filter_name" placeholder="filter" class="form-control input-md" ng-change="change_filter_name()" disabled>
+		 				</th>
+		 				<th>
+		 				Gender<br>
+		 				<input type="text" id="filter_gender" name="filter_gender" ng-model="filter_gender" placeholder="filter" class="form-control input-md" ng-change="change_filter_gender()">
+		 				</th>
+		 			</tr>
+	 			</thead>
+
+
+		 		<tbody>
+				    <tr ng-repeat="friend in ( fb_friends_filtered = (fb_friends | filter: { gender: filter_gender} : true ) )">
+				    <!--
+						<tr ng-repeat="friend in fb_friends | filter: { gender: filter_gender} : true">
+				    -->
+				    	<td>
+
+				    	</td>
+				    	<td>
+				    		{{ friend.userID }}
+				    	</td>
+				    	<td>
+				    		{{ friend.fullName }}
+				    	</td>
+				    	<td>
+				    		{{ friend.gender }}
+				    	</td>
+
+
+			    	</tr>
+
+		 		</tbody>
+			</table>
+
+</div>
+
+
+<div ng-controller="ControlFacebookMessage">
+	
+<h3>Message:</h3>
+
+<div>
+<label>&#60;&#60;name&#62;&#62; : Replace with name of facebook user.</label>
+</div>
+<textarea rows="4" name="TxtMessage" placeholder="Message..." class="form-control input-lg" style="font-size:16px;" ng-model="TxtMessage" required>
+</textarea>
+
+<button type="button" ng-click="StartTask()" class="btn btn-primary" style="width:100%;height:50px;font-size:20px;margin-top:20px;">
+<span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Start
+</button>
+
+</div>

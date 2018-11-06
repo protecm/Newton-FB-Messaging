@@ -1,0 +1,64 @@
+info Logging in... 
+info Logged in 
+info Request to reconnect 
+info Request to pull 1 
+info Request to pull 2 
+info Request to thread_sync 
+info Done logging in. 
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:896:11)
+    at exports._exceptionWithHostPort (util.js:919:20)
+    at Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.listen (net.js:1378:5)
+    at Object.<anonymous> (C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js:18:8)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:159:18)
+    at node.js:444:3
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:896:11)
+    at exports._exceptionWithHostPort (util.js:919:20)
+    at Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.listen (net.js:1378:5)
+    at Object.<anonymous> (C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js:18:8)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:159:18)
+    at node.js:444:3
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:896:11)
+    at exports._exceptionWithHostPort (util.js:919:20)
+    at Server._listen2 (net.js:1246:14)
+    at listen (net.js:1282:10)
+    at Server.listen (net.js:1378:5)
+    at Object.<anonymous> (C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js:18:8)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:159:18)
+    at node.js:444:3

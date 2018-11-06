@@ -1,0 +1,30 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "Pro-Tech Multimedia HTTP Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pro-Tech Multimedia",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "google-translate": "^1.0.6",
+    "http": "0.0.0",
+    "httpdispatcher": "^1.0.0",
+    "mime-types": "^2.1.12",
+    "nedb": "^1.8.0",
+    "node-cmd": "^1.1.1",
+    "node-windows": "^0.1.12",
+    "nodemailer": "^2.6.4",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "ps-node": "^0.1.4",
+    "sendmail": "^1.0.0",
+    "shell-escape": "^0.2.0",
+    "smtp-server": "^1.16.1",
+    "string-escape": "^0.3.0",
+    "url": "^0.11.0"
+  }
+}

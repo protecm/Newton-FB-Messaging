@@ -1,0 +1,33 @@
+java -jar "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\driver\newton_msg.jar"
+Server listening on: http://localhost:8080
+Home Directory:C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug
+LOGIN - SERVICE
+GetSysUser
+sys_users PATH: C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\db\sys_users.db
+connected to socket!
+Message Recieved
+
+
+disconnected from socket
+UPDATE_TASKS_PACK [ { task_id: 'lrsKLpcCe6qgCKET', count: 0, finished: false } ]
+UPDATE_TASKS_PACK [ { task_id: 'lrsKLpcCe6qgCKET', count: 4, finished: false } ]
+UPDATE_TASKS_PACK [ { task_id: 'lrsKLpcCe6qgCKET', count: 9, finished: false } ]
+UPDATE_TASKS_PACK [ { task_id: 'lrsKLpcCe6qgCKET', count: 15, finished: false } ]
+UPDATE_TASKS_PACK [ { task_id: 'lrsKLpcCe6qgCKET', count: 21, finished: false } ]
+UPDATE_TASKS_PACK [ { task_id: 'lrsKLpcCe6qgCKET', count: 25, finished: false } ]
+UPDATE_TASKS_PACK [ { task_id: 'lrsKLpcCe6qgCKET', count: 27, finished: true } ]
+java -jar "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\driver\newton_msg.jar"
+Server listening on: http://localhost:8080
+Home Directory:C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug
+java -jar "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\driver\newton_msg.jar"
+java -jar "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\driver\newton_msg.jar"
+java -jar "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\driver\newton_msg.jar"
+java -jar "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\driver\newton_msg.jar"
+Server listening on: http://localhost:8080
+Home Directory:C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug
+java -jar "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\driver\newton_msg.jar"
+Server listening on: http://localhost:8080
+Home Directory:C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug
+java -jar "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\driver\newton_msg.jar"
+Server listening on: http://localhost:8080
+Home Directory:C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug

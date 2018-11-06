@@ -1,0 +1,80 @@
+<menu></menu>
+
+<div ng-controller="ControlTasks">
+
+<h3>Tasks:</h3>
+<button type="button" ng-click="GetUserTasks()" class="btn btn-primary" ">
+  <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> Refresh
+</button>
+
+<div id="DivTasksView" ng-init="GetUserTasks()">
+	 		<table class="table table-hover" style="overflow: scroll;max-height:500px;display:block;">
+		 		<thead class="thead-default">
+			 		<tr>
+				 		<th>	
+				 		</th>
+		 				<th>
+		 				Task-ID
+		 				</th>
+		 				<th>
+		 				Start
+		 				</th>
+		 				<th>
+		 				Message
+		 				</th>
+		 				<th>
+		 				FB-User-Name
+		 				</th>
+		 				<th>
+		 				Position
+		 				</th>
+		 				<th>
+		 				Count
+		 				</th>
+		 				<th>
+		 				End
+		 				</th>
+		 			</tr>
+	 			</thead>
+
+
+		 		<tbody>
+				    <tr ng-repeat="task in tasks">
+				    	<td>
+				    		<button type="button" ng-click="CancelTask(task,$event)" class="btn btn-danger" ng-disabled="IsTaskCancled(task)">
+							  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Cancel
+							</button>
+							<button type="button" ng-click="DeleteTask(task,$event)" class="btn btn-danger" ng-disabled="IsTaskDeleted(task)">
+							  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Delete
+							</button>
+				    	</td>
+				    	<td>
+				    		{{ task._id }}
+				    	</td>
+				    	<td>
+				    		{{ GetLocalDate(task.start_time) }}
+				    	</td>
+				    	<td>
+				    		{{ task.message }}
+				    	</td>
+				    	<td>
+				    		{{ task.fb_username }}
+				    	</td>
+				    	<td>
+				    		{{ task.curr_pos }}
+				    	</td>
+				    	<td>
+				    		{{ task.max_pos }}
+				    	</td>
+				    	<td>
+				    		{{ GetLocalDate(task.end_time) }}
+				    	</td>
+
+			    	</tr>
+
+		 		</tbody>
+			</table>
+</div>
+
+
+</div>

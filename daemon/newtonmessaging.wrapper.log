@@ -1,0 +1,27 @@
+2016-12-13 19:40:18 - Starting C:\Program Files\nodejs\node.exe --harmony "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\node_modules\node-windows\lib\wrapper.js" -f "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js" -l "Newton Messaging" -g 0.25 -w 1 -r 3 -a n
+2016-12-13 19:40:18 - Started 4080
+2016-12-13 20:25:29 - Stopping newtonmessaging.exe
+2016-12-13 20:25:29 - ProcessKill 4080
+2016-12-13 20:25:29 - Finished newtonmessaging.exe
+2016-12-21 18:13:28 - Starting C:\Program Files\nodejs\node.exe --harmony "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\node_modules\node-windows\lib\wrapper.js" -f "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js" -l "Newton Messaging" -g 0.25 -w 1 -r 3 -a n
+2016-12-21 18:13:30 - Started 13700
+2016-12-21 18:13:42 - Stopping newtonmessaging.exe
+2016-12-21 18:13:42 - ProcessKill 13700
+2016-12-21 18:13:42 - Finished newtonmessaging.exe
+2016-12-21 19:01:56 - Starting C:\Program Files\nodejs\node.exe --harmony "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\node_modules\node-windows\lib\wrapper.js" -f "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js" -l "Newton Messaging" -g 0.25 -w 1 -r 3 -a n
+2016-12-21 19:01:56 - Started 15436
+2016-12-21 19:03:19 - Starting C:\Program Files\nodejs\node.exe --harmony "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\node_modules\node-windows\lib\wrapper.js" -f "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js" -l "Newton Messaging" -g 0.25 -w 1 -r 3 -a n
+2016-12-21 19:03:19 - Started 11828
+2016-12-21 19:03:24 - Stopping newtonmessaging.exe
+2016-12-21 19:03:24 - ProcessKill 11828
+2016-12-21 19:03:24 - Finished newtonmessaging.exe
+2016-12-21 19:16:49 - Starting C:\Program Files\nodejs\node.exe --harmony "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\node_modules\node-windows\lib\wrapper.js" -f "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js" -l "Newton Messaging" -g 0.25 -w 1 -r 3 -a n
+2016-12-21 19:16:49 - Started 12416
+2016-12-21 19:19:30 - Stopping newtonmessaging.exe
+2016-12-21 19:19:30 - ProcessKill 12416
+2016-12-21 19:19:30 - Finished newtonmessaging.exe
+2016-12-21 19:24:23 - Starting C:\Program Files\nodejs\node.exe --harmony "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\node_modules\node-windows\lib\wrapper.js" -f "C:\Users\YRIAZNOV\Desktop\Facebook Apps\FACEBOOK_CHAT_APPS\NODE_SERVER\source\debug\HTTP_SERVER.js" -l "Newton Messaging" -g 0.25 -w 1 -r 3 -a n
+2016-12-21 19:24:24 - Started 9484
+2016-12-21 20:04:46 - Stopping newtonmessaging.exe
+2016-12-21 20:04:46 - ProcessKill 9484
+2016-12-21 20:04:46 - Finished newtonmessaging.exe
